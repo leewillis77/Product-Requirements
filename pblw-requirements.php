@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Plugins By Lee Willis Requirements
+Plugin Name: Product Requirements
 Description: Support for products to have "Requirements" recorded against them, then displayed on the product page in a widget.
 Plugin URI: http://plugins.leewillis.co.uk
 Author: Lee Willis
