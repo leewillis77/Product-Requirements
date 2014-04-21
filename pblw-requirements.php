@@ -45,5 +45,13 @@ function pblw_requirements_plugins_loaded() {
 		global $pblw_requirements_ecommerce_class;
 		$pblw_requirements_ecommerce_class = new PblwRequirementsEdd();
 	}
+
+	// WooCommerce Support
+	if ( defined( 'WC_VERSION' ) &&
+		 version_compare( WC_VERSION, '2.0' ) ) {
+		require_once( 'pblw-requirements-wc.class.php' );
+		global $pblw_requirements_ecommerce_class;
+		$pblw_requirements_ecommerce_class = new PblwRequirementsWc();
+	}
 }
 add_action( 'plugins_loaded', 'pblw_requirements_plugins_loaded' );
