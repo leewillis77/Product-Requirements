@@ -14,7 +14,6 @@ class PblwRequirementsWc {
 	 * Attach the metaboxes to the download product page
 	 */
 	public function add_metaboxes() {
-		error_log( __FUNCTION__ . '() : Here (Line #' . __LINE__ . ')' );
 		add_meta_box(
 			'pblw-requirements',
 			__( 'Requirements', 'pblw_reqs' ),
