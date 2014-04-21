@@ -37,10 +37,13 @@ require_once( 'pblw-requirements-widget.class.php' );
 global $pblw_requirements_class;
 $pblw_requirements_class = new PblwRequirements();
 
-// EDD Support
-if ( defined( 'EDD_VERSION' ) &&
-	 version_compare( EDD_VERSION, '1.9' ) ) {
-	require_once( 'pblw-requirements-edd.class.php' );
-	global $pblw_requirements_ecommerce_class;
-	$pblw_requirements_ecommerce_class = new PblwRequirementsEdd();
+function pblw_requirements_plugins_loaded() {
+	// EDD Support
+	if ( defined( 'EDD_VERSION' ) &&
+		 version_compare( EDD_VERSION, '1.9' ) ) {
+		require_once( 'pblw-requirements-edd.class.php' );
+		global $pblw_requirements_ecommerce_class;
+		$pblw_requirements_ecommerce_class = new PblwRequirementsEdd();
+	}
 }
+add_action( 'plugins_loaded', 'pblw_requirements_plugins_loaded' );
