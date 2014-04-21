@@ -5,14 +5,13 @@ Description: Support for products to have "Requirements" recorded against them, 
 Plugin URI: http://plugins.leewillis.co.uk
 Author: Lee Willis
 Author URI: http://www.leewillis.co.uk/
-Version: 1.1
+Version: 1.2
 License: GPL2
 Text Domain: pblw_reqs
 Domain Path: /languages
 */
 
 /*
-
     Copyright (C) 2014  Lee Willis  wordpress.plugins@leewillis.co.uk
 
     This program is free software; you can redistribute it and/or modify
