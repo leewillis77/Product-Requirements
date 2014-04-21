@@ -1,13 +1,13 @@
 === Product Requirements ===
 Contributors: leewillis77
 Donate link: http://plugins.leewillis.co.uk/
-Tags: EDD, Easy Digital Downloads, plugins, requirements, products
+Tags: EDD, Easy Digital Downloads, WooCommerce, WC, plugins, requirements, products
 Requires at least: 3.8
 Tested up to: 3.8
-Stable tag: 1.0
+Stable tag: 1.1
 
 == Description ==
-Designed for users selling plugins with Easy Digital Downloads. Allows you to store a set of "Requirements" against a product, and display those on the product page in a widget.
+Allows you to store a set of "Requirements" against a product, and display those on the product page in a widget. With built in compatibility for Easy Digital Downloads and WooCommerce - easily edit your products' requirements on the main WordPress post editing screen, and display them in a widget on your store's front end.
 
 The plugin's available for forking and contribution over on [GitHub](https://github.com/leewillis77/Product-Requirements)
 
@@ -24,6 +24,9 @@ The plugin's available for forking and contribution over on [GitHub](https://git
 
 
 == Changelog ==
+
+= 1.1 =
+WooCommerce support
 
 = 1.0 =
 Initial public release
