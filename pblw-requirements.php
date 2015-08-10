@@ -5,7 +5,7 @@ Description: Support for products to have "Requirements" recorded against them, 
 Plugin URI: http://plugins.leewillis.co.uk
 Author: Lee Willis
 Author URI: http://www.leewillis.co.uk/
-Version: 1.2
+Version: 1.3
 License: GPL2
 Text Domain: pblw_reqs
 Domain Path: /languages
