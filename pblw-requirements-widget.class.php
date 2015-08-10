@@ -17,7 +17,7 @@ class PblwRequirements_Widget extends WP_Widget {
         	'classname' => 'pblw-requirements',
         	'description' => __( 'Widget showing the "requirements" field.', 'pblw_reqs' ),
     	);
-        $this->WP_Widget(
+        parent::__construct(
         	'pblw-requirements',
         	__( 'Requirements', 'pblw_reqs' ),
         	$widget_ops
